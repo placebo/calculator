@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 def addition(x, y):
     return x + y
@@ -48,7 +48,7 @@ while True:
         print num1, '+', num2, '=', addition(num1,num2)
         print ' '
         print ' '
-        choice = raw_input('Press Enter to continue / q to quit ')
+        choice = raw_input('Press Enter to continue / q to quit: ')
         if choice == 'q':
             exit()
         print ' '
@@ -64,7 +64,7 @@ while True:
         print num1, '-', num2, '=', subtraction(num1, num2)
         print ' '
         print ' '
-        choice = raw_input('Press Enter to continue / q to quit ')
+        choice = raw_input('Press Enter to continue / q to quit: ')
         if choice == 'q':
             exit()
         print ' '
@@ -79,7 +79,7 @@ while True:
         print num1, '*', num2, '=', multiplication(num1, num2)
         print ' '
         print ' '
-        choice = raw_input('Press Enter to continue / q to quit ')
+        choice = raw_input('Press Enter to continue / q to quit: ')
         if choice == 'q':
             exit()
         print ' '
@@ -94,7 +94,7 @@ while True:
         print num1, '/', num2, '=', division(num1, num2)
         print ' '
         print ' '
-        choice = raw_input('Press Enter to continue / q to quit ')
+        choice = raw_input('Press Enter to continue / q to quit: ')
         if choice == 'q':
             exit()
         print ' '
